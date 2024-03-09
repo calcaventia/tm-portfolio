@@ -1,0 +1,12 @@
+:root {
+  --primary-color: #a5a5a5;
+  --secondary-color: #cbcbcb;
+  --tertiary-color: #d7ff00;
+  --box-shadow: 0 5px 10px rgba(0, 0, 0, 0.3);
+}
+
+p {
+  font-family: "Poppins", sans-serif;
+  font-weight: 500;
+  font-style: italic;
+}
