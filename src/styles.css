@@ -1,0 +1,75 @@
+body {
+  background-color: #000;
+  background-image: url("./images/nightsky.jpg");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  height: 50vh; /* Adjust the height as needed */
+}
+
+:root {
+  --primary-color: #a5a5a5;
+  --secondary-color: #cbcbcb;
+  --tertiary-color: #d7ff00;
+  --box-shadow: 0 5px 10px rgba(0, 0, 0, 0.3);
+}
+
+.hero-text {
+  display: block;
+  margin-top: 150px;
+  margin-left: 200px;
+}
+
+h1 {
+  font-size: 24px;
+  color: var(--tertiary-color);
+  font-family: "Mako", sans-serif;
+  font-weight: 400;
+}
+
+h2 {
+  font-size: 70px;
+  color: var(--secondary-color);
+  font-family: "Poppins", sans-serif;
+  font-weight: 700;
+}
+
+h3 {
+  font-size: 45px;
+  color: var(--primary-color);
+  font-family: "Poppins", sans-serif;
+  font-weight: 600;
+}
+
+h4 {
+  font-size: 24px;
+  color: var(--primary-color);
+  font-family: "Mako", sans-serif;
+  font-weight: 400;
+}
+
+.neon-text-accents {
+  color: var(--tertiary-color);
+}
+
+.skills-heading {
+  margin-top: 300px;
+}
+
+.hero-btn {
+  margin-left: 200px;
+  border: 2px solid var(--tertiary-color);
+  background-color: transparent;
+  color: var(--tertiary-color);
+  font-size: 24px;
+  font-family: "Mako", sans-serif;
+  font-weight: 400;
+  padding: 10px 40px 10px 40px;
+  border-radius: 20px;
+  position: relative;
+  overflow: hidden;
+}
+
+.hero-btn:hover {
+  box-shadow: 0 0 30px #d9ff00;
+}
