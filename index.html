@@ -30,7 +30,7 @@
     <title>Software Developer Portfolio</title>
   </head>
   <body>
-    <div class="home-container">
+    <div class="home-container container">
       <!--Hero start-->
       <div class="hero-content container">
         <div class="hero-text">
@@ -39,19 +39,23 @@
             Tintswalo Mabuza<span class="neon-text-accents">.</span>
           </h2>
           <h3 class="mt-3">Welcome to my digital playground!</h3>
-          <h4 class="mt-3">
-            I'm a
-            <span class="neon-text-accents">software developer</span>
-            specialising in building meaningful<br />
-            web apps that are functional, responsive and user-friendly.
-          </h4>
+          <div class="container-fluid role-info">
+            <h4 class="mt-3">
+              I'm a
+              <span class="neon-text-accents">software developer</span>
+              specialising in building meaningful web apps that are functional,
+              responsive and user-friendly.
+            </h4>
+          </div>
+          <a href="/about.html"><button class="hero-btn">About Me</button></a>
         </div>
-        <a href="/about.html"
-          ><button class="hero-btn mt-5">About Me</button></a
-        >
       </div>
 
       <!--Hero end-->
+
+      <div class="project-seperator-spacer">
+        <hr class="project-seperator" />
+      </div>
 
       <!--Content start-->
       <!--technologies content start-->
@@ -181,85 +185,97 @@
             </div>
           </div>
         </div>
-      </div>
-      <!--technologies content end-->
 
-      <!--projects content start-->
-      <div class="projects-container">
-        <div class="projects-content">
-          <h2 class="content-heading text-center">
-            <span class="neon-text-accents">Projects</span> I've built
-          </h2>
-          <div class="carousel-border">
-            <div id="carousel" class="carousel slide carousel-slide mt-5">
-              <div class="carousel-inner">
-                <div class="carousel-item active">
-                  <img
-                    src="src/images/Makeovers APP.JPG"
-                    class="d-block w-100"
-                    alt="..."
-                  />
+        <!--technologies content end-->
+
+        <div class="project-seperator-spacer">
+          <hr class="project-seperator" />
+        </div>
+
+        <!--projects content start-->
+        <div class="projects-container">
+          <div class="projects-content">
+            <h2 class="content-heading text-center">
+              <span class="neon-text-accents">Projects</span> I've built
+            </h2>
+            <div class="carousel-border">
+              <div id="carousel" class="carousel slide carousel-slide mt-5">
+                <div class="carousel-inner">
+                  <div class="carousel-item active">
+                    <img
+                      src="src/images/Makeovers APP.JPG"
+                      class="d-block w-100"
+                      alt="..."
+                    />
+                  </div>
+                  <div class="carousel-item">
+                    <img
+                      src="src/images/weather-app.JPG"
+                      class="d-block w-100"
+                      alt="..."
+                    />
+                  </div>
+                  <div class="carousel-item">
+                    <img
+                      src="src/images/user profile.JPG"
+                      class="d-block w-100"
+                      alt="..."
+                    />
+                  </div>
+                  <div class="carousel-item">
+                    <img
+                      src="src/images/code-quiz.JPG"
+                      class="d-block w-100"
+                      alt="..."
+                    />
+                  </div>
+                  <div class="carousel-item">
+                    <img
+                      src="src/images/dice game.JPG"
+                      class="d-block w-100"
+                      alt="..."
+                    />
+                  </div>
                 </div>
-                <div class="carousel-item">
-                  <img
-                    src="src/images/weather-app.JPG"
-                    class="d-block w-100"
-                    alt="..."
-                  />
-                </div>
-                <div class="carousel-item">
-                  <img
-                    src="src/images/user profile.JPG"
-                    class="d-block w-100"
-                    alt="..."
-                  />
-                </div>
-                <div class="carousel-item">
-                  <img
-                    src="src/images/code-quiz.JPG"
-                    class="d-block w-100"
-                    alt="..."
-                  />
-                </div>
-                <div class="carousel-item">
-                  <img
-                    src="src/images/dice game.JPG"
-                    class="d-block w-100"
-                    alt="..."
-                  />
-                </div>
+                <button
+                  class="carousel-control-prev"
+                  type="button"
+                  data-bs-target="#carousel"
+                  data-bs-slide="prev"
+                >
+                  <span
+                    class="carousel-control-prev-icon"
+                    aria-hidden="true"
+                  ></span>
+                  <span class="visually-hidden">Previous</span>
+                </button>
+                <button
+                  class="carousel-control-next"
+                  type="button"
+                  data-bs-target="#carousel"
+                  data-bs-slide="next"
+                >
+                  <span
+                    class="carousel-control-next-icon"
+                    aria-hidden="true"
+                  ></span>
+                  <span class="visually-hidden">Next</span>
+                </button>
               </div>
-              <button
-                class="carousel-control-prev"
-                type="button"
-                data-bs-target="#carousel"
-                data-bs-slide="prev"
+            </div>
+            <div>
+              <a href="/projects.html">
+                <button class="projects-btn">Project Details</button></a
               >
-                <span
-                  class="carousel-control-prev-icon"
-                  aria-hidden="true"
-                ></span>
-                <span class="visually-hidden">Previous</span>
-              </button>
-              <button
-                class="carousel-control-next"
-                type="button"
-                data-bs-target="#carousel"
-                data-bs-slide="next"
-              >
-                <span
-                  class="carousel-control-next-icon"
-                  aria-hidden="true"
-                ></span>
-                <span class="visually-hidden">Next</span>
-              </button>
             </div>
           </div>
-          <button class="projects-btn">Project Details</button>
         </div>
       </div>
-
       <!--projects content end-->
+
+      <div class="project-seperator-spacer">
+        <hr class="project-seperator" />
+      </div>
 
       <!--contact content start-->
 
