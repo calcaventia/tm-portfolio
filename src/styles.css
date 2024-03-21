@@ -15,22 +15,22 @@ body {
 }
 
 .home-container {
-  padding: 0 0 100px 0;
+  padding: 0;
 }
 .content-container {
-  padding: 270px 0 0 0;
+  padding: 0;
 }
 
 .hero-text {
   display: block;
-  margin-top: 150px;
-  margin-left: 150px;
+  margin-top: 100px;
+  margin-left: 80px;
 }
 
 h1 {
-  font-size: 28px;
+  font-size: 26px;
   color: var(--tertiary-color);
-  font-family: "Mako", sans-serif;
+  font-family: "Poppins", sans-serif;
   font-weight: 400;
 }
 
@@ -42,36 +42,38 @@ h2 {
 }
 
 h3 {
-  font-size: 52px;
+  font-size: 48px;
   color: var(--primary-color);
   font-family: "Poppins", sans-serif;
   font-weight: 600;
 }
 
 h4 {
-  font-size: 28px;
+  font-size: 26px;
   color: var(--primary-color);
-  font-family: "Mako", sans-serif;
+  font-family: "Poppins", sans-serif;
   font-weight: 400;
+}
+
+.role-info {
+  width: 100%;
+  padding: 0;
 }
 
 .neon-text-accents {
   color: var(--tertiary-color);
 }
 
-.skills-heading {
-  margin-top: 300px;
-}
-
 .hero-btn {
-  margin-left: 150px;
+  margin-top: 40px;
+
   border: 2px solid var(--tertiary-color);
   background-color: transparent;
   color: var(--tertiary-color);
-  font-size: 28px;
-  font-family: "Mako", sans-serif;
+  font-size: 20px;
+  font-family: "Poppins", sans-serif;
   font-weight: 400;
-  padding: 10px 40px 10px 40px;
+  padding: 10px 35px;
   border-radius: 20px;
   position: relative;
   overflow: hidden;
@@ -82,12 +84,10 @@ h4 {
 }
 
 /*home-content*/
-.skills-content {
-  padding: 0 0 100px 0;
-}
+
 .content-heading {
   text-align: center;
-  font-size: 50px;
+  font-size: 45px;
   color: var(--secondary-color);
   font-family: "Poppins", sans-serif;
   font-weight: 700;
@@ -96,27 +96,27 @@ h4 {
 .tech-logo-container {
   display: block;
   margin: 0 auto;
-  width: 800px;
+  width: 600px;
   padding: 10px 0 0 0;
 }
 
 .tech-logo {
   display: block;
   margin: 0 auto;
-  width: 90px;
+  width: 65px;
 }
 
 /*projects-content*/
 
 .projects-container {
-  padding: 140px 0 220px 0;
+  padding: 0;
 }
 
 .carousel-slide {
   display: block;
   margin: 0 auto;
-  width: 1000px;
-  padding: 30px 0 80px 0;
+  width: 90%;
+  padding: 30px 0 60px 0;
 }
 
 .carousel-control-next-icon,
@@ -127,22 +127,26 @@ h4 {
 .projects-btn {
   display: block;
   margin: 0 auto;
-  width: 1000px;
-  background-color: var(--tertiary-color);
-  color: #000;
+  width: 90%;
   font-size: 24px;
-  font-family: "Montserrat", sans-serif;
-  font-weight: 600;
+  font-family: "Poppins", sans-serif;
+  font-weight: 400;
   padding: 10px 40px 10px 40px;
   border-radius: 20px;
   position: relative;
   overflow: hidden;
-}
-
-.projects-btn:hover {
   border: 2px solid var(--tertiary-color);
   color: var(--tertiary-color);
   background-color: transparent;
+}
+
+.projects-btn:hover {
+  color: #000;
+  background-color: var(--tertiary-color);
+}
+
+a {
+  text-decoration: none;
 }
 
 /*contact-content*/
@@ -150,12 +154,12 @@ h4 {
 .contact-container {
   display: block;
   margin: 0 auto;
-  width: 1000px;
+  width: 90%;
   background-color: #d9ff003a;
 }
 
 .contact-text {
-  padding: 150px 80px 80px 80px;
+  padding: 100px 80px 80px 80px;
 }
 
 .contact-me {
@@ -180,4 +184,109 @@ h4 {
 .contact-btn:hover {
   background-color: var(--tertiary-color);
   color: #000;
+}
+
+.project-seperator {
+  border: 0;
+  height: 4px;
+  background-color: #d9ff00;
+  margin: 2% 35%;
+  opacity: 1;
+}
+
+.project-seperator-spacer {
+  padding: 120px;
+}
+
+@media (max-width: 900px) {
+  h1 {
+    font-size: 22px;
+  }
+
+  h2 {
+    font-size: 47px;
+  }
+
+  .contact-me {
+    font-size: 32px;
+  }
+  h3 {
+    font-size: 30px;
+  }
+  h4 {
+    font-size: 16px;
+    color: var(--primary-color);
+    font-family: "Mako", sans-serif;
+    font-weight: 400;
+  }
+
+  .hero-text {
+    display: block;
+    margin-top: 50px;
+    margin-left: 30px;
+  }
+
+  .hero-btn {
+    font-size: 18px;
+    padding: 5px 20px;
+    border-radius: 15px;
+  }
+
+  .role-info {
+    width: 100%;
+    padding: 0;
+  }
+
+  .content-heading {
+    font-size: 26px;
+    padding: 20px 40px 0 40px;
+  }
+
+  .tech-logo-container {
+    width: 100%;
+    padding: 10px 40px;
+  }
+  .tech-logo {
+    width: 38px;
+  }
+  .projects-content {
+    padding: 0 20px;
+  }
+
+  .carousel-slide {
+    width: 100%;
+    padding: 0px 0 30px 0;
+  }
+  .projects-btn {
+    font-size: 15px;
+    padding: 5px 40px;
+    width: 100%;
+  }
+  .contact-container {
+    width: 100%;
+    margin-top: 20px;
+    text-align: center;
+  }
+
+  .contact-text {
+    padding: 50px 40px;
+  }
+
+  .contact-me {
+    font-size: 30px;
+  }
+
+  .contact-btn {
+    font-size: 20px;
+    border-radius: 15px;
+  }
+
+  .project-seperator {
+    height: 3px;
+    margin: 9% 35%;
+  }
+
+  .project-seperator-spacer {
+    padding: 50px;
+  }
 }
