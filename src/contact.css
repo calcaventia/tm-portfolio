@@ -1,0 +1,98 @@
+body {
+  background-color: #000;
+}
+
+:root {
+  --primary-color: #a5a5a5;
+  --secondary-color: #cbcbcb;
+  --tertiary-color: #d7ff00;
+  --box-shadow: 0 5px 10px rgba(0, 0, 0, 0.3);
+}
+
+.contactPage-container {
+  display: block;
+  margin: 0 auto;
+  margin-bottom: 100px;
+  width: 100%;
+  text-align: center;
+  padding: 150px 40px 0px 40px;
+}
+
+h3 {
+  font-size: 50px;
+  color: var(--primary-color);
+  font-family: "Poppins", sans-serif;
+  font-weight: 700;
+}
+
+h6 {
+  font-size: 15px;
+  color: #6e6e6e;
+  font-family: "Poppins", sans-serif;
+  font-weight: 600;
+}
+
+a {
+  text-decoration: none;
+}
+
+.contactBtn {
+  border: 1px solid var(--tertiary-color);
+  background-color: transparent;
+  color: var(--tertiary-color);
+  font-size: 15px;
+  font-family: "Poppins", sans-serif;
+  font-weight: 400;
+  padding: 5px 20px;
+  border-radius: 10px;
+  position: relative;
+  overflow: hidden;
+}
+
+.contactBtn:hover {
+  box-shadow: 0 0 30px #d9ff00;
+}
+
+.neon-text-accents {
+  color: var(--tertiary-color);
+}
+.project-seperator {
+  border: 0;
+  height: 4px;
+  background-color: #d9ff00;
+  margin: 2% 40%;
+  opacity: 1;
+}
+
+.project-seperator-spacer {
+  padding: 80px 0 0 0;
+}
+
+@media (max-width: 900px) {
+  h3 {
+    font-size: 40px;
+  }
+  h6 {
+    font-size: 14px;
+  }
+
+  .contactPage-container {
+    width: 100%;
+    margin-top: 20px;
+    text-align: center;
+    padding: 100px 40px 30px 40px;
+  }
+
+  .contactBtn {
+    font-size: 12px;
+    border-radius: 15px;
+  }
+  .project-seperator {
+    height: 3px;
+    margin: 9% 20%;
+  }
+
+  .project-seperator-spacer {
+    padding: 50px;
+  }
+}
