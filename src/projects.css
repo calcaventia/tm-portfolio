@@ -335,6 +335,14 @@ a {
     text-align: left;
     letter-spacing: 1px;
   }
+
+  .githubProjects-btn {
+    font-size: 15px;
+    padding: 7px 20px 7px 20px;
+    width: 90%;
+    border-radius: 15px;
+  }
+
   .contact-container {
     width: 100%;
     margin-top: 20px;
