@@ -77,7 +77,7 @@ nav li.active a {
 .contactPage-container {
   display: block;
   margin: 0 auto;
-  margin-bottom: 100px;
+
   width: 100%;
   text-align: center;
   padding: 100px 40px 0px 40px;
@@ -134,7 +134,43 @@ a {
   padding: 80px 0 0 0;
 }
 
+/*footer*/
+
+footer .social-links a {
+  margin: 0 20px;
+  margin-top: 60px;
+  margin-bottom: 50px;
+  color: var(--tertiary-color);
+  background-color: #3f3f3f;
+  font-size: 25px;
+  padding: 2px 10px;
+  border-radius: 10px;
+}
+
+footer .social-links a:hover {
+  color: var(--primary-color);
+}
+
+.signature-text {
+  text-align: center;
+  font-size: 16px;
+  color: #6b6b6b;
+  padding: 0 0 80px 0;
+  font-family: "Poppins", sans-serif;
+}
+
+.signature-text:hover {
+  color: var(--tertiary-color);
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
 @media (max-width: 900px) {
+  .navbar-container {
+    padding: 20px 20px;
+  }
   .logo {
     max-height: 40px;
   }
@@ -150,6 +186,10 @@ a {
   nav li {
     line-height: 15px;
   }
+
+  .contactPage-container {
+    padding: 40px 40px 0px 40px;
+  }
   h3 {
     font-size: 40px;
   }
@@ -157,17 +197,29 @@ a {
     font-size: 14px;
   }
 
-  .contactPage-container {
-    width: 100%;
-    margin-top: 20px;
-    text-align: center;
-    padding: 100px 40px 30px 40px;
-  }
-
   .contactBtn {
     font-size: 12px;
     border-radius: 15px;
   }
+  footer .social-links a {
+    margin: 0 20px;
+    margin-top: 0px;
+    margin-bottom: 50px;
+    font-size: 20px;
+  }
+  .signature-text {
+    font-size: 12px;
+  }
+  footer .social-links a {
+    margin-top: 40px;
+    margin-bottom: 15px;
+    font-size: 20px;
+  }
+  .signature-text {
+    font-size: 12px;
+    padding: 0 0 50px 0;
+  }
+
   .project-seperator {
     height: 3px;
     margin: 9% 20%;
