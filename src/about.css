@@ -75,7 +75,7 @@ nav li.active a {
 }
 
 .about-section {
-  padding: 70px 50px 30px 50px;
+  padding: 50px 50px 30px 50px;
 }
 
 h1 {
@@ -106,7 +106,8 @@ p {
   font-weight: 400;
 }
 
-.about-btn {
+.projectsPage-btn {
+  margin-bottom: 50px;
   border: 2px solid var(--tertiary-color);
   background-color: transparent;
   color: var(--tertiary-color);
@@ -119,7 +120,7 @@ p {
   overflow: hidden;
 }
 
-.about-btn:hover {
+.projectsPage-btn:hover {
   box-shadow: 0 0 30px #d9ff00;
 }
 
@@ -132,16 +133,19 @@ p {
   margin: 0 auto;
 }
 
+/*contact-content*/
+
 .contact-container {
   display: block;
   margin: 0 auto;
+  margin-top: 20px;
+  width: 100%;
   background-color: #d9ff003a;
-  margin-bottom: 100px;
-  width: 1100px;
 }
 
 .contact-text {
-  padding: 150px 80px 80px 80px;
+  margin-left: 40px;
+  padding: 100px 80px 80px 80px;
 }
 
 .contact-me {
@@ -167,6 +171,9 @@ p {
   background-color: var(--tertiary-color);
   color: #000;
 }
+.signature-text {
+  font-size: 12px;
+}
 
 .project-seperator {
   border: 0;
@@ -179,8 +186,41 @@ p {
 .project-seperator-spacer {
   padding: 0 0 90px 0;
 }
+footer .social-links a {
+  margin: 0 20px;
+  margin-top: 60px;
+  margin-bottom: 50px;
+  color: var(--tertiary-color);
+  background-color: #3f3f3f;
+  font-size: 25px;
+  padding: 2px 10px;
+  border-radius: 10px;
+}
 
+footer .social-links a:hover {
+  color: var(--primary-color);
+}
+
+.signature-text {
+  text-align: center;
+  font-size: 16px;
+  color: #6b6b6b;
+  padding: 0 0 80px 0;
+  font-family: "Poppins", sans-serif;
+}
+
+.signature-text:hover {
+  color: var(--tertiary-color);
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
 @media (max-width: 900px) {
+  .navbar-container {
+    padding: 20px 20px;
+  }
   .logo {
     max-height: 40px;
   }
@@ -195,6 +235,10 @@ p {
   nav li {
     line-height: 15px;
   }
+
+  .profile-picture {
+    margin-bottom: 40px;
+  }
   h1 {
     font-size: 44px;
   }
@@ -207,13 +251,18 @@ p {
   h3 {
     font-size: 38px;
   }
+  .projectsPage-btn {
+    margin-bottom: 0px;
+  }
   .contact-container {
     width: 100%;
     margin-top: 20px;
     text-align: center;
+    margin-bottom: 0px;
   }
 
   .contact-text {
+    margin-left: 0px;
     padding: 50px 40px;
   }
 
@@ -225,12 +274,22 @@ p {
     font-size: 20px;
     border-radius: 15px;
   }
+
+  footer .social-links a {
+    margin-top: 40px;
+    margin-bottom: 15px;
+    font-size: 20px;
+  }
+  .signature-text {
+    font-size: 12px;
+    padding: 0 0 50px 0;
+  }
   .project-seperator {
     height: 3px;
     margin: 9% 20%;
   }
 
   .project-seperator-spacer {
-    padding: 50px;
+    padding: 30px;
   }
 }

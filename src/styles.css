@@ -223,11 +223,12 @@ a {
 .contact-container {
   display: block;
   margin: 0 auto;
-  width: 90%;
+  width: 100%;
   background-color: #d9ff003a;
 }
 
 .contact-text {
+  margin-left: 40px;
   padding: 100px 80px 80px 80px;
 }
 
@@ -267,7 +268,45 @@ a {
   padding: 120px;
 }
 
+/*footer*/
+
+footer .social-links a {
+  margin: 0 20px;
+  margin-top: 60px;
+  margin-bottom: 50px;
+  color: var(--tertiary-color);
+  background-color: #3f3f3f;
+  font-size: 25px;
+  padding: 2px 10px;
+  border-radius: 10px;
+}
+
+footer .social-links a:hover {
+  color: var(--primary-color);
+}
+
+.signature-text {
+  text-align: center;
+  font-size: 16px;
+  color: #6b6b6b;
+  padding: 0 0 80px 0;
+  font-family: "Poppins", sans-serif;
+}
+
+.signature-text:hover {
+  color: var(--tertiary-color);
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
 @media (max-width: 900px) {
+  .navbar-container {
+    padding: 20px 20px;
+  }
+
   .logo {
     max-height: 40px;
   }
@@ -355,6 +394,7 @@ a {
   }
 
   .contact-text {
+    margin-left: 0px;
     padding: 50px 40px;
   }
 
@@ -365,6 +405,16 @@ a {
   .contact-btn {
     font-size: 20px;
     border-radius: 15px;
+  }
+
+  footer .social-links a {
+    margin-top: 40px;
+    margin-bottom: 15px;
+    font-size: 20px;
+  }
+  .signature-text {
+    font-size: 12px;
+    padding: 0 0 50px 0;
   }
 
   .project-seperator {
